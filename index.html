@@ -17,7 +17,7 @@
   <meta property="og:title" content="CSPS UM - Bridging Minds, Empowering Communities">
   <meta property="og:description"
     content="Center for Social Psychology Studies Universitas Negeri Malang. Advancing social psychology through research, education, and community engagement.">
-
+  <meta name="Center for Social Psychology Studies Universitas N9" content="summary_large_image">
   <meta name="description"
     content="CSPS UM is a center for learning, research, and community engagement in Social Psychology. We connect knowledge with real-world impact, empowering individuals and communities to create positive social change.">
   <!-- fonts -->
@@ -150,6 +150,16 @@
       --swiper-pagination-bullet-inactive-opacity: 1;
     }
 
+    .csps-text {
+      font-size: 14px;
+    }
+
+    @media (min-width: 992px) {
+      .csps-text {
+        font-size: 16px;
+      }
+    }
+
     @media (max-width: 767px) {
       :root {
         --font-h1--size: 48px;
@@ -170,13 +180,13 @@
     <header class="header-2 header-floating">
       <div class="container-fluid">
         <div class="header-grid">
-          <a class="header-logo" href="index-2.html" aria-label="CSPS">
+          <a class="header-logo" href="index.html" aria-label="CSPS">
             <img src="assets/img/logo.png" alt="CSPS Logo" height="32">
           </a>
           <drawer-menu>
             <nav class="header-nav drawer-menu">
               <div class="d-lg-none header-nav-headings">
-                <a class="header-logo" href="index-2.html" aria-label="CSPS">
+                <a class="header-logo" href="index.html" aria-label="CSPS">
                   <img src="assets/img/logo.png" alt="CSPS Logo" style="width: 130px;" height="32" loading="lazy">
                 </a>
                 <drawer-opener class="svg-wrapper menu-close" data-drawer=".drawer-menu">
@@ -192,17 +202,17 @@
               </div>
               <ul class="header-menu list-unstyled">
                 <li class="nav-item">
-                  <a class="menu-link menu-link-main menu-accrodion" href="index-2.html">
+                  <a class="menu-link menu-link-main menu-accrodion" href="index.html">
                     Home
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="menu-link menu-link-main" href="#">
+                  <a class="menu-link menu-link-main" href="about.html">
                     About Us
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="menu-link menu-link-main menu-accrodion" href="#">
+                  <a class="menu-link menu-link-main menu-accrodion" href="./services.html">
                     Services
                     <svg width="10" height="5" viewBox="0 0 10 5" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M5 5L0 0H10L5 5Z" fill="currentColor" />
@@ -211,25 +221,25 @@
                   <div class="header-submenu menu-absolute submenu-color">
                     <ul class="list-unstyled">
                       <li class="nav-item">
-                        <a class="menu-link" href="#">Program Development</a>
+                        <a class="menu-link" href="./service-details.html">Program Development</a>
                       </li>
                       <li class="nav-item">
-                        <a class="menu-link" href="#">
+                        <a class="menu-link" href="./service-details.html">
                           Comms
                         </a>
                       </li>
                       <li class="nav-item">
-                        <a class="menu-link" href="#">
+                        <a class="menu-link" href="./service-details.html">
                           Impact Measurement
                         </a>
                       </li>
                       <li class="nav-item">
-                        <a class="menu-link" href="#">
+                        <a class="menu-link" href="./service-details.html">
                           Sustainability report assistance
                         </a>
                       </li>
                       <li class="nav-item">
-                        <a class="menu-link" href="#">
+                        <a class="menu-link" href="./service-details.html">
                           Psychological Assesment
                         </a>
                       </li>
@@ -237,7 +247,7 @@
                   </div>
                 </li>
                 <li class="nav-item">
-                  <a class="menu-link menu-link-main" href="#">
+                  <a class="menu-link menu-link-main" href="./projects.html">
                     Projects
                   </a>
                 </li>
@@ -256,7 +266,11 @@
                           <path stroke-linecap="round" stroke-linejoin="round"
                             d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
                         </svg>
-                        Gedung B4, Jl. Semarang No.5, Sumbersari, Kec. Lowokwaru, Kota Malang, Jawa Timur 65145, Indonesia
+
+                        <a href="https://share.google/dpRsDNbhYyHIWgLW3" target="_blank" rel="noopener noreferrer">
+                          Gedung B4, Jl. Semarang No.5, Sumbersari, Kec. Lowokwaru, Kota Malang, Jawa Timur 65145,
+                          Indonesia
+                        </a>
                       </div>
                     </li>
                     <li class="nav-item">
@@ -285,42 +299,45 @@
             </nav>
           </drawer-menu>
           <div class="header-actions d-flex align-items-center">
-            <a href="#" aria-label="contact us" class="button button--primary button--slim">
-              Get in Touch
-              <span class="svg-wrapper">
-                <svg class="icon-20" width="20" height="20" viewBox="0 0 20 20" fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
+            <div class="header-actions d-flex align-items-center">
+              <a href="https://wa.me/6281234567890?text=Halo%20CSPS%20UM,%20saya%20ingin%20berkonsultasi."
+                aria-label="Hubungi kami melalui WhatsApp" class="button button--primary button--slim" target="_blank"
+                rel="noopener noreferrer">
+                Get in Touch
+                <span class="svg-wrapper">
+                  <svg class="icon-20" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M13.3365 7.84518L6.16435 15.0173L4.98584 13.8388L12.158 6.66667H5.83652V5H15.0032V14.1667H13.3365V7.84518Z"
+                      fill="currentColor"></path>
+                  </svg>
+                </span>
+              </a>
+              <drawer-opener class="svg-wrapper menu-open d-lg-none" data-drawer=".drawer-menu">
+                <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="26" cy="26" r="25.5" fill="white" stroke="currentColor" />
                   <path
-                    d="M13.3365 7.84518L6.16435 15.0173L4.98584 13.8388L12.158 6.66667H5.83652V5H15.0032V14.1667H13.3365V7.84518Z"
-                    fill="currentColor"></path>
+                    d="M32.5 18.2857C32.5 17.5757 31.9179 17 31.2 17H14.3C13.5821 17 13 17.5757 13 18.2857C13 18.9958 13.5821 19.5714 14.3 19.5714H31.2C31.9179 19.5714 32.5 18.9957 32.5 18.2857ZM14.3 24.7143H37.7C38.4179 24.7143 39 25.29 39 26C39 26.7101 38.4179 27.2857 37.7 27.2857H14.3C13.5821 27.2857 13 26.7101 13 26C13 25.29 13.5821 24.7143 14.3 24.7143ZM14.3 32.4286H26C26.7179 32.4286 27.3 33.0042 27.3 33.7143C27.3 34.4243 26.7179 35 26 35H14.3C13.5821 35 13 34.4243 13 33.7143C13 33.0042 13.5821 32.4286 14.3 32.4286Z"
+                    fill="currentColor" />
                 </svg>
-              </span>
-            </a>
-            <drawer-opener class="svg-wrapper menu-open d-lg-none" data-drawer=".drawer-menu">
-              <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="26" cy="26" r="25.5" fill="white" stroke="currentColor" />
-                <path
-                  d="M32.5 18.2857C32.5 17.5757 31.9179 17 31.2 17H14.3C13.5821 17 13 17.5757 13 18.2857C13 18.9958 13.5821 19.5714 14.3 19.5714H31.2C31.9179 19.5714 32.5 18.9957 32.5 18.2857ZM14.3 24.7143H37.7C38.4179 24.7143 39 25.29 39 26C39 26.7101 38.4179 27.2857 37.7 27.2857H14.3C13.5821 27.2857 13 26.7101 13 26C13 25.29 13.5821 24.7143 14.3 24.7143ZM14.3 32.4286H26C26.7179 32.4286 27.3 33.0042 27.3 33.7143C27.3 34.4243 26.7179 35 26 35H14.3C13.5821 35 13 34.4243 13 33.7143C13 33.0042 13.5821 32.4286 14.3 32.4286Z"
-                  fill="currentColor" />
-              </svg>
-            </drawer-opener>
-            <drawer-opener class="svg-wrapper menu-open d-none d-lg-flex" data-drawer=".drawer-additional">
-              <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="26" cy="26" r="25.5" fill="white" stroke="currentColor" />
-                <path
-                  d="M32.5 18.2857C32.5 17.5757 31.9179 17 31.2 17H14.3C13.5821 17 13 17.5757 13 18.2857C13 18.9958 13.5821 19.5714 14.3 19.5714H31.2C31.9179 19.5714 32.5 18.9957 32.5 18.2857ZM14.3 24.7143H37.7C38.4179 24.7143 39 25.29 39 26C39 26.7101 38.4179 27.2857 37.7 27.2857H14.3C13.5821 27.2857 13 26.7101 13 26C13 25.29 13.5821 24.7143 14.3 24.7143ZM14.3 32.4286H26C26.7179 32.4286 27.3 33.0042 27.3 33.7143C27.3 34.4243 26.7179 35 26 35H14.3C13.5821 35 13 34.4243 13 33.7143C13 33.0042 13.5821 32.4286 14.3 32.4286Z"
-                  fill="currentColor" />
-              </svg>
-            </drawer-opener>
+              </drawer-opener>
+              <drawer-opener class="svg-wrapper menu-open d-none d-lg-flex" data-drawer=".drawer-additional">
+                <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="26" cy="26" r="25.5" fill="white" stroke="currentColor" />
+                  <path
+                    d="M32.5 18.2857C32.5 17.5757 31.9179 17 31.2 17H14.3C13.5821 17 13 17.5757 13 18.2857C13 18.9958 13.5821 19.5714 14.3 19.5714H31.2C31.9179 19.5714 32.5 18.9957 32.5 18.2857ZM14.3 24.7143H37.7C38.4179 24.7143 39 25.29 39 26C39 26.7101 38.4179 27.2857 37.7 27.2857H14.3C13.5821 27.2857 13 26.7101 13 26C13 25.29 13.5821 24.7143 14.3 24.7143ZM14.3 32.4286H26C26.7179 32.4286 27.3 33.0042 27.3 33.7143C27.3 34.4243 26.7179 35 26 35H14.3C13.5821 35 13 34.4243 13 33.7143C13 33.0042 13.5821 32.4286 14.3 32.4286Z"
+                    fill="currentColor" />
+                </svg>
+              </drawer-opener>
+            </div>
           </div>
         </div>
-      </div>
     </header>
   </sticky-header>
 
   <div class="theme-drawer drawer-additional" data-position="right">
     <div class="drawer-headings">
-      <a class="header-logo" href="../index-2.html" aria-label="Consulo">
+      <a class="header-logo" href="../index.html" aria-label="Consulo">
         <img src="assets/img/logo.png" alt="Consulo Logo" style="width: 130px;" height="32" loading="lazy">
       </a>
       <drawer-opener class="svg-wrapper menu-close" data-drawer=".drawer-additional">
@@ -399,7 +416,7 @@
                     </clipPath>
                   </defs>
                 </svg>
-                <span>Center for Social Psychology & Society</span>
+                <span class="csps-text text-center">Center for Social Psychology & Society</span>
                 <svg class="icon icon-14" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
                   fill="none">
                   <g clip-path="url(#clip0_9088_4143)">
@@ -414,7 +431,7 @@
                   </defs>
                 </svg>
               </div>
-              <h2 class="heading text-80 fw-700" data-aos="fade-up" data-aos-delay="100">
+              <h2 class="heading text-64 fw-700" data-aos="fade-up" data-aos-delay="100">
                 Bridging Minds,
                 <span class="decorated-text"><span>Empowering</span></span>
                 Communities
@@ -466,22 +483,22 @@
                     <!-- Slides -->
                     <div class="swiper-slide">
                       <div class="main-img">
-                        <img src="assets/img/slider/asset-kosongan.jpg" width="992" height="717" loading="eager" alt="Image">
+                        <img src="assets/img/slider-1.jpg" width="992" height="717" loading="eager" alt="Image">
                       </div>
                     </div>
                     <div class="swiper-slide">
                       <div class="main-img">
-                        <img src="assets/img/slider/asset-kosongan.jpg" width="992" height="717" loading="lazy" alt="Image">
+                        <img src="assets/img/slider-2.jpg" width="992" height="717" loading="lazy" alt="Image">
                       </div>
                     </div>
                     <div class="swiper-slide">
                       <div class="main-img">
-                        <img src="assets/img/slider/asset-kosongan.jpg" width="992" height="717" loading="lazy" alt="Image">
+                        <img src="assets/img/slider-3.jpg" width="992" height="717" loading="lazy" alt="Image">
                       </div>
                     </div>
                     <div class="swiper-slide">
                       <div class="main-img">
-                        <img src="assets/img/slider/asset-kosongan.jpg" width="992" height="717" loading="lazy" alt="Image">
+                        <img src="assets/img/slider-4.jpg" width="992" height="717" loading="lazy" alt="Image">
                       </div>
                     </div>
                   </div>
@@ -493,26 +510,25 @@
                     <!-- Slides -->
                     <div class="swiper-slide">
                       <div class="thumb-img">
-                        <img src="assets/img/slider/asset-kosongan-kecil.png" width="160" height="140" loading="lazy"
+                        <img src="assets/img/slider-1.jpg" width="160" height="140" loading="lazy"
                           alt="Slider image">
                       </div>
                     </div>
                     <div class="swiper-slide">
                       <div class="thumb-img">
-                        <img src="assets/img/slider/asset-kosongan-kecil.png" width="160" height="140" loading="lazy"
+                        <img src="assets/img/slider-2.jpg" width="160" height="140" loading="lazy"
                           alt="Slider image">
                       </div>
                     </div>
                     <div class="swiper-slide">
                       <div class="thumb-img">
-                        <img src="assets/img/slider/asset-kosongan-kecil.png" width="160" height="140" loading="lazy"
+                        <img src="assets/img/slider-3.jpg" width="160" height="140" loading="lazy"
                           alt="Slider image">
                       </div>
                     </div>
                     <div class="swiper-slide">
                       <div class="thumb-img">
-                        <img src="assets/img/slider/asset-kosongan-kecil.png" width="160" height="140" loading="lazy"
-                          alt="Slider image">
+                        <img src="assets/img/slider-4.jpg" width="160" height="140" loading="lazy" alt="Slider image">
                       </div>
                     </div>
                   </div>
@@ -580,14 +596,16 @@
                   </defs>
                 </svg>
               </div>
-              <h2 class="heading text-50" data-aos="fade-up" data-aos-delay="50">
+              <h2 class="heading text-40" data-aos="fade-up" data-aos-delay="50">
                 Bringing Innovative Solutions for Societal Challenges
               </h2>
               <div class="text text-18" data-aos="fade-up" data-aos-delay="80">
-                CSPS was founded on May 26, 2021, as an independent research center and operates as a hub for impactful research, workshops, and discussions. We aim to develop practical, science-based solutions to societal issues, with a focus on innovation and quality.
+                CSPS was founded on May 26, 2021, as an independent research center and operates as a hub for impactful
+                research, workshops, and discussions. We aim to develop practical, science-based solutions to societal
+                issues, with a focus on innovation and quality.
               </div>
               <div class="buttons" data-aos="fade-up" data-aos-delay="100">
-                <a href="#" class="button button--primary" aria-label="More About Us">
+                <a href="about.html" class="button button--primary" aria-label="More About Us">
                   More About Us
                   <span class="svg-wrapper">
                     <svg class="icon-20" width="20" height="20" viewBox="0 0 20 20" fill="none"
@@ -684,7 +702,7 @@
         </div>
       </div>
     </div>
-    
+
     <!-- How We Work -->
     <div class="testimonial how-we-work mt-100">
       <div class="container">
@@ -720,7 +738,7 @@
                   </defs>
                 </svg>
               </div>
-              <h2 class="heading text-50" data-aos="fade-up">
+              <h2 class="heading text-40" data-aos="fade-up">
                 What We Do to Transform Ideas into Impact
               </h2>
             </div>
@@ -728,7 +746,7 @@
           <div class="col-lg-6 col-12">
             <div class="testimonial-card-inner card-working-process-inner">
               <div class="card-working-process">
-                <h2 class="heading text-24 fw-500">Impactful Research</h2>
+                <h2 class="heading text-20 fw-500">Impactful Research</h2>
                 <div class="card-icon-text card-icon-text-horizontal has-border">
                   <div class="svg-wrapper">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1"
@@ -738,12 +756,17 @@
                     </svg>
                   </div>
                   <div class="content">
-                    <p class="text text-18">We conduct evidence-based research to better understand psychological and social challenges, generating valuable insights that support informed decision-making and meaningful social change.</p>
+                    <p class="text text-16">We conduct research that helps make sense of complex social challenges and
+                      the human behaviors that shape them. Grounded in social psychology, our work generates evidence
+                      and insights that inform programs, policies, and initiatives across interconnected areas such as
+                      education, wellbeing, social inclusion, sustainability, community resilience, and governance. By
+                      bridging research and practice, we support more effective and people-centered approaches to social
+                      change.</p>
                   </div>
                 </div>
               </div>
               <div class="card-working-process">
-                <h2 class="heading text-24 fw-500">Community Empowerment</h2>
+                <h2 class="heading text-20 fw-500">Community Empowerment</h2>
                 <div class="card-icon-text card-icon-text-horizontal has-border">
                   <div class="svg-wrapper">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1"
@@ -753,12 +776,20 @@
                     </svg>
                   </div>
                   <div class="content">
-                    <p class="text text-18">We facilitate workshops, training programs, and discussions that encourage knowledge sharing, strengthen community capacity, and promote collaborative approaches to addressing social issues.</p>
+                    <p class="text text-16">We create spaces for learning, collaboration, and collective action through
+                      workshops, training
+                      programs, and facilitated discussions. Our work strengthens the capacity of communities,
+                      organizations, and
+                      institutions to understand social challenges, engage diverse stakeholders, and develop more
+                      inclusive and effective
+                      responses. By combining social psychology insights with practical engagement, we support the
+                      growth of resilient
+                      communities and stronger institutions that can drive transformative social change.</p>
                   </div>
                 </div>
               </div>
               <div class="card-working-process">
-                <h2 class="heading text-24 fw-500">Science-Based Solutions</h2>
+                <h2 class="heading text-20 fw-500">Science-Based Solutions</h2>
                 <div class="card-icon-text card-icon-text-horizontal has-border">
                   <div class="svg-wrapper">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1"
@@ -768,7 +799,15 @@
                     </svg>
                   </div>
                   <div class="content">
-                    <p class="text text-18">We design practical and research-driven solutions that help organizations and communities create sustainable programs, interventions, and long-term positive impact.</p>
+                    <p class="text text-16">We translate research into practical solutions that support organizations,
+                      institutions, and
+                      communities in addressing real-world challenges. Grounded in evidence and social psychology, our
+                      work informs the
+                      design of programs, interventions, and strategies that are effective, context-sensitive, and
+                      sustainable. Through this
+                      approach, we help organizations, institutions, and communities transform evidence into effective
+                      programs, policies,
+                      and practices that deliver lasting impact.</p>
                   </div>
                 </div>
               </div>
@@ -813,7 +852,7 @@
                 </defs>
               </svg>
             </div>
-            <h2 class="heading text-50" data-aos="fade-right" data-aos-delay="20">
+            <h2 class="heading text-40" data-aos="fade-right" data-aos-delay="20">
               Bridging Research and Real-World Impact
             </h2>
           </div>
@@ -953,7 +992,8 @@
                         Program Development
                       </h2>
                       <p class="text text-16">
-                        Merancang dan mengeksekusi program berdampak, baik untuk CSR maupun intervensi sosial lain
+
+
                       </p>
                     </div>
                     <div class="service-button">
@@ -1017,9 +1057,10 @@
                         Comms Materials Production
                       </h2>
                       <p class="text text-16">
-                        Menyediakan layanan pembuatan konten, dokumentasi, publikasi, dan media release untuk perusahaan, organisasi non-profit
+                        Menyediakan layanan pembuatan konten, dokumentasi, publikasi, dan media release untuk
+                        perusahaan, organisasi non-profit
                         (NGO), maupun berbagai program sosial dan penelitian.
-                        </p>
+                      </p>
                     </div>
                     <div class="service-button">
                       <a href="service-details.html" class="button button--primary">
@@ -1082,7 +1123,8 @@
                         Impact Measurement
                       </h2>
                       <p class="text text-16">
-                        Melakukan pengukuran dan evaluasi dampak program secara sistematis untuk menilai efektivitas, capaian, serta kontribusi
+                        Melakukan pengukuran dan evaluasi dampak program secara sistematis untuk menilai efektivitas,
+                        capaian, serta kontribusi
                         program terhadap tujuan yang telah ditetapkan.</p>
                     </div>
                     <div class="service-button">
@@ -1146,7 +1188,8 @@
                         Sustainability Report Assistance
                       </h2>
                       <p class="text text-16">
-                        Membantu organisasi dan perusahaan dalam penyusunan sustainability report, mulai dari pengumpulan data, analisis, hingga
+                        Membantu organisasi dan perusahaan dalam penyusunan sustainability report, mulai dari
+                        pengumpulan data, analisis, hingga
                         penyusunan laporan yang sesuai dengan standar keberlanjutan.
                       </p>
                     </div>
@@ -1212,7 +1255,8 @@
                         Psychological Assessment
                       </h2>
                       <p class="text text-16">
-                        Menyediakan layanan pengukuran dan asesmen psikologis untuk berbagai kebutuhan, seperti penelitian, pengembangan
+                        Menyediakan layanan pengukuran dan asesmen psikologis untuk berbagai kebutuhan, seperti
+                        penelitian, pengembangan
                         organisasi, rekrutmen, pemetaan kompetensi, maupun evaluasi individu.
                       </p>
                     </div>
@@ -1263,7 +1307,7 @@
               </defs>
             </svg>
           </div>
-          <h2 class="heading text-50" data-aos="fade-up" data-aos-delay="20">
+          <h2 class="heading text-40" data-aos="fade-up" data-aos-delay="20">
             Explore the Recent Works We Have Done!
           </h2>
         </div>
@@ -1274,8 +1318,32 @@
           <div class="swiper">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
+                <a class="card-project radius18" aria-label="project details" href="./projects-details.html">
+                  <img src="assets/img/mangrove.jpeg" alt="project image" width="645"
+                    height="690" loading="lazy">
+                  <div class="card-project-content-absolute">
+                    <div class="card-project-content">
+                      <h2 class="heading text-24">1000 Mangrove Mauk</h2>
+                      <p class="text text-16">1000 Mangrove Mauk merupakan program kolaborasi antara BB dan Jumbo</p>
+                    </div>
+                  </div>
+                  <span class="svg-wrapper icon-project-link">
+                    <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="32" cy="32" r="32" fill="white" />
+                      <path
+                        d="M26.1667 39C25.8167 39 25.5833 38.8833 25.35 38.65C24.8833 38.1833 24.8833 37.4833 25.35 37.0167L37.0167 25.35C37.4833 24.8833 38.1833 24.8833 38.65 25.35C39.1167 25.8167 39.1167 26.5167 38.65 26.9833L26.9833 38.65C26.75 38.8833 26.5167 39 26.1667 39Z"
+                        fill="#153564" />
+                      <path
+                        d="M37.8332 37.8333C37.1332 37.8333 36.6665 37.3667 36.6665 36.6667V27.3333H27.3332C26.6332 27.3333 26.1665 26.8667 26.1665 26.1667C26.1665 25.4667 26.6332 25 27.3332 25H37.8332C38.5332 25 38.9998 25.4667 38.9998 26.1667V36.6667C38.9998 37.3667 38.5332 37.8333 37.8332 37.8333Z"
+                        fill="#153564" />
+                    </svg>
+                  </span>
+                </a>
+              </div>
+              <div class="swiper-slide">
                 <a class="card-project radius18" aria-label="project details" href="#">
-                  <img src="assets/img/project/card/asset-kosongan-card.png" alt="project image" width="645" height="690" loading="lazy">
+                  <img src="assets/img/project/card/asset-kosongan-card.png" alt="project image" width="645"
+                    height="690" loading="lazy">
                   <div class="card-project-content-absolute">
                     <div class="card-project-content">
                       <h2 class="heading text-24">Program Development</h2>
@@ -1297,7 +1365,8 @@
               </div>
               <div class="swiper-slide">
                 <a class="card-project radius18" aria-label="project details" href="#">
-                  <img src="assets/img/project/card/asset-kosongan-card.png" alt="project image" width="645" height="690" loading="lazy">
+                  <img src="assets/img/project/card/asset-kosongan-card.png" alt="project image" width="645"
+                    height="690" loading="lazy">
                   <div class="card-project-content-absolute">
                     <div class="card-project-content">
                       <h2 class="heading text-24">Program Development</h2>
@@ -1319,7 +1388,8 @@
               </div>
               <div class="swiper-slide">
                 <a class="card-project radius18" aria-label="project details" href="#">
-                  <img src="assets/img/project/card/asset-kosongan-card.png" alt="project image" width="645" height="690" loading="lazy">
+                  <img src="assets/img/project/card/asset-kosongan-card.png" alt="project image" width="645"
+                    height="690" loading="lazy">
                   <div class="card-project-content-absolute">
                     <div class="card-project-content">
                       <h2 class="heading text-24">Program Development</h2>
@@ -1341,7 +1411,8 @@
               </div>
               <div class="swiper-slide">
                 <a class="card-project radius18" aria-label="project details" href="#">
-                  <img src="assets/img/project/card/asset-kosongan-card.png" alt="project image" width="645" height="690" loading="lazy">
+                  <img src="assets/img/project/card/asset-kosongan-card.png" alt="project image" width="645"
+                    height="690" loading="lazy">
                   <div class="card-project-content-absolute">
                     <div class="card-project-content">
                       <h2 class="heading text-24">Program Development</h2>
@@ -1363,7 +1434,8 @@
               </div>
               <div class="swiper-slide">
                 <a class="card-project radius18" aria-label="project details" href="#">
-                  <img src="assets/img/project/card/asset-kosongan-card.png" alt="project image" width="645" height="690" loading="lazy">
+                  <img src="assets/img/project/card/asset-kosongan-card.png" alt="project image" width="645"
+                    height="690" loading="lazy">
                   <div class="card-project-content-absolute">
                     <div class="card-project-content">
                       <h2 class="heading text-24">Program Development</h2>
@@ -1385,7 +1457,8 @@
               </div>
               <div class="swiper-slide">
                 <a class="card-project radius18" aria-label="project details" href="#">
-                  <img src="assets/img/project/card/asset-kosongan-card.png" alt="project image" width="645" height="690" loading="lazy">
+                  <img src="assets/img/project/card/asset-kosongan-card.png" alt="project image" width="645"
+                    height="690" loading="lazy">
                   <div class="card-project-content-absolute">
                     <div class="card-project-content">
                       <h2 class="heading text-24">Program Development</h2>
@@ -1407,29 +1480,8 @@
               </div>
               <div class="swiper-slide">
                 <a class="card-project radius18" aria-label="project details" href="#">
-                  <img src="assets/img/project/card/asset-kosongan-card.png" alt="project image" width="645" height="690" loading="lazy">
-                  <div class="card-project-content-absolute">
-                    <div class="card-project-content">
-                      <h2 class="heading text-24">Program Development</h2>
-                      <p class="text text-16">Lorem Ipsum Dolor</p>
-                    </div>
-                  </div>
-                  <span class="svg-wrapper icon-project-link">
-                    <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <circle cx="32" cy="32" r="32" fill="white" />
-                      <path
-                        d="M26.1667 39C25.8167 39 25.5833 38.8833 25.35 38.65C24.8833 38.1833 24.8833 37.4833 25.35 37.0167L37.0167 25.35C37.4833 24.8833 38.1833 24.8833 38.65 25.35C39.1167 25.8167 39.1167 26.5167 38.65 26.9833L26.9833 38.65C26.75 38.8833 26.5167 39 26.1667 39Z"
-                        fill="#153564" />
-                      <path
-                        d="M37.8332 37.8333C37.1332 37.8333 36.6665 37.3667 36.6665 36.6667V27.3333H27.3332C26.6332 27.3333 26.1665 26.8667 26.1665 26.1667C26.1665 25.4667 26.6332 25 27.3332 25H37.8332C38.5332 25 38.9998 25.4667 38.9998 26.1667V36.6667C38.9998 37.3667 38.5332 37.8333 37.8332 37.8333Z"
-                        fill="#153564" />
-                    </svg>
-                  </span>
-                </a>
-              </div>
-              <div class="swiper-slide">
-                <a class="card-project radius18" aria-label="project details" href="#">
-                  <img src="assets/img/project/card/asset-kosongan-card.png" alt="project image" width="645" height="690" loading="lazy">
+                  <img src="assets/img/project/card/asset-kosongan-card.png" alt="project image" width="645"
+                    height="690" loading="lazy">
                   <div class="card-project-content-absolute">
                     <div class="card-project-content">
                       <h2 class="heading text-24">Program Development</h2>
@@ -1511,15 +1563,19 @@
                   </defs>
                 </svg>
               </div>
-              <h2 class="heading text-50" data-aos="fade-up" data-aos-delay="50">
+              <h2 class="heading text-40" data-aos="fade-up" data-aos-delay="50">
                 Have any questions? here some answers
               </h2>
               <div class="text text-18" data-aos="fade-up" data-aos-delay="80">
-                  Explore answers to common questions about our research, community programs, psychological assessments, and consulting services. Learn how CSPS supports organizations and communities through evidence-based solutions and meaningful social impact.
+                Explore answers to common questions about our research, community programs, psychological assessments,
+                and consulting services. Learn how CSPS supports organizations and communities through evidence-based
+                solutions and meaningful social impact.
               </div>
               <div class="buttons" data-aos="fade-up" data-aos-delay="100">
-                <a href="about.html" class="button button--primary" aria-label="Ask Your Question">
-                  Ask Your Question
+                <a href="https://wa.me/6281234567890?text=Halo%20CSPS%20UM,%20saya%20ingin%20berkonsultasi%20mengenai%20layanan%20yang%20tersedia."
+                  class="button button--primary" target="_blank" rel="noopener noreferrer"
+                  aria-label="Hubungi kami melalui WhatsApp">
+                  Ask Yous Questions
                   <span class="svg-wrapper">
                     <svg class="icon-20" width="20" height="20" viewBox="0 0 20 20" fill="none"
                       xmlns="http://www.w3.org/2000/svg">
@@ -1559,7 +1615,9 @@
                   </div>
                   <div class="accordion-content">
                     <div class="accordion-content-inner text text-18">
-                      CSPS menyediakan layanan pengembangan program, produksi materi komunikasi, pengukuran dampak, pendampingan penyusunan sustainability report, serta asesmen psikologis untuk berbagai kebutuhan organisasi dan masyarakat.
+                      CSPS menyediakan layanan pengembangan program, produksi materi komunikasi, pengukuran dampak,
+                      pendampingan penyusunan sustainability report, serta asesmen psikologis untuk berbagai kebutuhan
+                      organisasi dan masyarakat.
                     </div>
                   </div>
                 </div>
@@ -1584,7 +1642,9 @@
                   </div>
                   <div class="accordion-content">
                     <div class="accordion-content-inner text text-18">
-                      CSPS terbuka untuk bekerja sama dengan perusahaan, instansi pemerintah, organisasi non-profit (NGO), lembaga pendidikan, komunitas, maupun pihak lain yang memiliki visi untuk menciptakan dampak sosial yang berkelanjutan.
+                      CSPS terbuka untuk bekerja sama dengan perusahaan, instansi pemerintah, organisasi non-profit
+                      (NGO), lembaga pendidikan, komunitas, maupun pihak lain yang memiliki visi untuk menciptakan
+                      dampak sosial yang berkelanjutan.
                     </div>
                   </div>
                 </div>
@@ -1609,7 +1669,9 @@
                   </div>
                   <div class="accordion-content">
                     <div class="accordion-content-inner text text-18">
-                      Ya. CSPS melakukan penelitian di bidang psikologi dan sosial untuk menghasilkan temuan yang dapat digunakan sebagai dasar pengambilan keputusan, pengembangan program, serta penyelesaian berbagai permasalahan masyarakat.
+                      Ya. CSPS melakukan penelitian di bidang psikologi dan sosial untuk menghasilkan temuan yang dapat
+                      digunakan sebagai dasar pengambilan keputusan, pengembangan program, serta penyelesaian berbagai
+                      permasalahan masyarakat.
                     </div>
                   </div>
                 </div>
@@ -1634,7 +1696,8 @@
                   </div>
                   <div class="accordion-content">
                     <div class="accordion-content-inner text text-18">
-                      Tentu. Kami membantu organisasi mengukur dan mengevaluasi dampak program secara sistematis sehingga efektivitas, capaian, dan kontribusi program dapat diketahui secara lebih akurat.
+                      Tentu. Kami membantu organisasi mengukur dan mengevaluasi dampak program secara sistematis
+                      sehingga efektivitas, capaian, dan kontribusi program dapat diketahui secara lebih akurat.
                     </div>
                   </div>
                 </div>
@@ -1659,7 +1722,9 @@
                   </div>
                   <div class="accordion-content">
                     <div class="accordion-content-inner text text-18">
-                      Anda dapat menghubungi tim CSPS melalui kontak yang tersedia untuk mendiskusikan kebutuhan dan tujuan yang ingin dicapai. Kami akan membantu merancang solusi yang sesuai dengan konteks dan kebutuhan Anda.
+                      Anda dapat menghubungi tim CSPS melalui kontak yang tersedia untuk mendiskusikan kebutuhan dan
+                      tujuan yang ingin dicapai. Kami akan membantu merancang solusi yang sesuai dengan konteks dan
+                      kebutuhan Anda.
                     </div>
                   </div>
                 </div>
@@ -1681,14 +1746,13 @@
           <div class="row footer-custom-row">
             <div class="col-12 col-md-6">
               <div class="footer-widget footer-widget-brand" data-aos="fade-up" data-aos-anchor=".footer-top">
-                <a class="footer-logo" href="index-2.html" aria-label="Consulo Logo">
-                  <img src="assets/img/Logo-CSPS-trans-header-980x310.png " alt="Consulo Logo" style="width: 130px;" height="32"
-                    loading="lazy">
+                <a class="footer-logo" href="index.html" aria-label="Consulo Logo">
+                  <img src="assets/img/Logo-CSPS-trans-header-980x310.png " alt="Consulo Logo" style="width: 130px;"
+                    height="32" loading="lazy">
                 </a>
                 <p class="text text-16">
-                  Each demo built with Teba will look different. You can
-                  customize almost anything in the appearance of your website
-                  with only a few
+                  CSPS UM provides research-based solutions in social psychology, helping organizations design impactful
+                  programs, measure outcomes, and create sustainable social change.
                 </p>
                 <ul class="social-icons list-unstyled" data-aos="fade-up" data-aos-anchor=".footer-top">
                   <li>
@@ -1744,7 +1808,7 @@
                     </a>
                   </li>
                   <li>
-                    <a href="team" class="text text-16 link" aria-label="Our Team">
+                    <a href="./projects.html" class="text text-16 link" aria-label="Our Team">
                       Projects
                     </a>
                   </li>
@@ -1756,27 +1820,28 @@
                 <div class="widget-heading heading text-22">Services</div>
                 <ul class="footer-menu list-unstyled">
                   <li>
-                    <a href="#" class="text text-16 link" aria-label="UI/UX Design">
+                    <a href="./service-details.html" class="text text-16 link" aria-label="UI/UX Design">
                       Program Development
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="text text-16 link" aria-label="App Development">
+                    <a href="./service-details.html" class="text text-16 link" aria-label="App Development">
                       Comms
                     </a>
                   </li>
                   <li>
-                    <a href="services" class="text text-16 link" aria-label="Digital Marketing">
+                    <a href="./service-details.html" class="text text-16 link" aria-label="Digital Marketing">
                       Impact Measurement
                     </a>
                   </li>
                   <li>
-                    <a href="contact" class="text text-16 link" aria-label="Cyber Security">
+                    <a href="./service-details.html" class="text text-16 link" aria-label="Cyber Security">
                       Sustainability report assistance
                     </a>
                   </li>
                   <li>
-                    <a href="blog" class="text text-16 link" aria-label="Web Development">Psychological Assessment</a>
+                    <a href="./service-details.html" class="text text-16 link"
+                      aria-label="Web Development">Psychological Assessment</a>
                   </li>
                 </ul>
               </div>
@@ -1834,7 +1899,5 @@
   <script src="assets/js/vendor.js" defer></script>
   <script src="assets/js/main.js" defer></script>
 </body>
-
-<!-- Mirrored from consulo-html.vercel.app/html/index-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 10 Jun 2026 12:00:22 GMT -->
 
 </html>

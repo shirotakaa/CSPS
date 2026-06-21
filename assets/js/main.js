@@ -130,7 +130,7 @@ class ScrollTop extends HTMLElement {
   onScroll() {
     window.addEventListener("scroll", function () {
       const scrollToTopButton = document.querySelector(".scroll-to-top");
-      const footer = document.querySelector("footer");
+      const footer = document.querySelect-process .card-icon-text .or("footer");
 
       const scrollThreshold = 200;
       const footerHeight = footer ? footer.offsetHeight : 0;
