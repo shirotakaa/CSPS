@@ -4112,6 +4112,11 @@ form textarea {
 .service-contact {
   position: relative; }
 
+.teks-rata {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 .sidebar-widget.service-contact {
   --color-foreground: rgba(255, 255, 255, 1);
   --color-foreground-heading: rgba(255, 255, 255, 1);
